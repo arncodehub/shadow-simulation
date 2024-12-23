@@ -137,7 +137,7 @@ def main():
         emit_light(sunX, sunY)
         et = time.time()
         dt = et-st
-        simulationTime += dt*60
+        simulationTime += dt*60*12
         simulationTime = round(simulationTime)
         pygame.display.update()
         clock.tick(60)
